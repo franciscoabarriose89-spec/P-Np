@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amador-canonical-operator"
+version = "1.0.0"
+description = "Motor académico y científico en Python puro del Operador Canónico de Amador para problemas de alta complejidad computacional y sistemas cuántico-disipativos, formulado desde Venezuela (2026)."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Francisco Amador Barrios Espinoza" }]
+license = { text = "MIT" }
+dependencies = []
+keywords = ["physics", "mathematics", "scientific", "quantum", "dissipative", "optimization", "kähler"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Education",
+]
+
+[project.urls]
+Homepage = "https://github.com/franciscoabarriose89-spec/P-Np"
+Repository = "https://github.com/franciscoabarriose89-spec/P-Np"
+Issues = "https://github.com/franciscoabarriose89-spec/P-Np/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
